@@ -1,0 +1,7 @@
+const USER_TOKEN_FACE = 'USER_TOKEN_FACE'
+const DEMO_DEMODOWN = 'DEMO_DEMODOWN'
+
+export default {
+  USER_TOKEN_FACE,
+  DEMO_DEMODOWN
+}

@@ -1,0 +1,99 @@
+[{
+  "views": [{
+    "path": "/demo",
+    "redirect": "/demo",
+    "name": "views",
+    "entrance": "views",
+    "meta": {
+      "title": "入口文件"
+    },
+    "hidden": true,
+    "children": [{
+        "path": "/demo",
+        "hidden": true,
+        "name": "home",
+        "meta": {
+          "title": "demo首页"
+        },
+        "template": "home",
+        "children": [{
+            "path": "/demo",
+            "name": "demo",
+            "entrance": "two",
+            "hidden": true,
+            "redirect": "/demo/index",
+            "meta": {
+              "title": "介绍"
+            },
+            "children": [{
+                "path": "/demo/index",
+                "name": "index",
+                "hidden": true,
+                "meta": {
+                  "title": "首页-4"
+                },
+                "template": "index"
+              },
+              {
+                "path": "/demo/details",
+                "name": "details",
+                "hidden": true,
+                "meta": {
+                  "title": "demo详情"
+                },
+                "template": "details"
+              }
+            ]
+          },
+          {
+            "path": "/demo/three",
+            "name": "three",
+            "hidden": true,
+            "meta": {
+              "title": "首页-3"
+            },
+            "template": "index-3"
+          }
+        ]
+      },
+      {
+        "path": "/demo/search",
+        "hidden": true,
+        "name": "search",
+        "meta": {
+          "title": "搜索"
+        },
+        "template": "search"
+      },
+      {
+        "path": "/demo/*",
+        "hidden": true,
+        "name": "404-demo",
+        "meta": {
+          "title": "搜索"
+        },
+        "template": "404"
+      }
+    ]
+  }, "views"]
+}, {
+  "guide": [{
+    "path": "/",
+    "redirect": "/",
+    "name": "docsindex",
+    "entrance": "guide",
+    "meta": {
+      "title": "入口文件"
+    },
+    "hidden": true,
+    "children": [{
+      "path": "/",
+      "hidden": true,
+      "name": "guide",
+      "meta": {
+        "title": "首页引导页"
+      },
+      "template": "guide"
+    }]
+  }, "guide"]
+}]
