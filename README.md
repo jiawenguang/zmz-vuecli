@@ -20,6 +20,8 @@
 
 ```bash
 zmz-vuecli init <project name>
+
+npm i或install
 ```
 
 
@@ -34,5 +36,4 @@ zmz-vuecli init <project name>
 [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 
 All pull requests are welcome. Thanks for taking the time to contribute.
-
 

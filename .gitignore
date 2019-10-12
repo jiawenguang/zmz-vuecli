@@ -7,24 +7,13 @@ yarn-error.log*
 test/unit/coverage
 
 
-build/
-config/
-examples/
-static/
-test/
+
 packages/theme-default/src
 packages/theme-default/*.js
 packages/theme-default/*.md
 packages/theme-default/*.json
 packages/theme-default/lib/demo.css
 package-lock.json
-.eslintrc.js
-.eslintignore
-.postcssrc.js
-index.html
-.eslintignore
-.editorconfig
-.babelrc
 # Editor directories and files
 .idea
 .vscode
